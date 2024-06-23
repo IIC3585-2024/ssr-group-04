@@ -7,10 +7,13 @@ function SeriesView() {
     <div>
       <h1>Shows</h1>
       <div className="show-list">
-        <Show />
-        <Show />
-        <Show />
-        <Show />
+        {Array.from({ length: 20 }).map((_, index) => (
+          <div key={index}>
+            <a href={`/shows/${index + 1}`}>
+              <Show />
+            </a>
+          </div>
+        ))}
       </div>
     </div>
   );
