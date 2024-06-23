@@ -1,0 +1,42 @@
+{
+  "series": [
+    {
+      "name": "How I Met your Mother",
+      "service_id": 1,
+      "description": "Ted Mosby sits down to tell his kids the story of how he met their mother.",
+      "categories": ["Comedy", "Romance"],
+      "rating": 9.8,
+      "seasons": [
+        {
+          "season": 1,
+          "number_of_episodes": 22,
+          "episodes": [
+            {
+              "episode": 1,
+              "title": "Pilot",
+              "air_date": "2005-09-19",
+              "description": "Ted Mosby sits down to tell his kids the story of how he met their mother."
+            },
+            {
+              "episode": 2,
+              "title": "Purple Giraffe",
+              "air_date": "2005-09-26",
+              "description": "Ted throws a party in hopes of seeing Robin again."
+            }
+          ]
+        }
+      ],
+      "comments": [
+        { "user_id": 1, "comment": "This is the best show ever!", "rating": 5 },
+        { "user_id": 1, "comment": "I love this show!", "rating": 5 }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "el flargo",
+      "series": [1]
+    }
+  ]
+}
