@@ -1,0 +1,64 @@
+.show__hero {
+    height: 30vh;
+}
+
+.action-bar {
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.action {
+    background-color: gray;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.show__seasons {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 1rem
+}
+
+.show__categories {
+    display: flex;
+    gap: 1rem;
+}
+
+.badge {
+    background-color: gray;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+}
+
+.show__data {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    align-items: center;
+    color: rgb(213, 211, 211);
+}
+
+.season {
+    min-width: 45vw;
+    height: 30vh;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.season__name {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%
+}
+
+.season__n-episodes {
+    display: flex;
+    align-items: center;
+}
