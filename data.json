@@ -1,11 +1,14 @@
 {
-  "series": [
+  "shows": [
     {
       "name": "How I Met your Mother",
       "service_id": 1,
       "description": "Ted Mosby sits down to tell his kids the story of how he met their mother.",
       "categories": ["Comedy", "Romance"],
       "rating": 9.8,
+      "images": [
+        "https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_.jpg"
+      ],
       "seasons": [
         {
           "season": 1,
@@ -36,7 +39,7 @@
     {
       "id": 1,
       "username": "el flargo",
-      "series": [1]
+      "shows": [1]
     }
   ]
 }
