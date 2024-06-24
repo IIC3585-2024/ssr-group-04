@@ -5,16 +5,17 @@ import ShowSeasons from "./ShowSeasons";
 import ShowCategories from "./ShowCategories";
 import ShowHero from "./ShowHero";
 import ShowContent from "./ShowContent";
+import { IShow } from "@/interfaces/IShow";
 
-function Show() {
+function Show({ show }: { show: IShow }) {
   return (
     <div className="show">
-      <ShowHero />
-      <ShowData />
-      <ShowCategories />
-      <ShowContent />
+      <ShowHero show={show} />
+      <ShowData show={show} />
+      <ShowCategories show={show} />
+      <ShowContent show={show} />
       <ShowActions />
-      <ShowSeasons />
+      <ShowSeasons show={show} />
     </div>
   );
 }

@@ -1,14 +1,11 @@
+import { IShow } from "@/interfaces/IShow";
 import React from "react";
 
-function ShowContent() {
+function ShowContent({ show }: { show: IShow }) {
   return (
     <div className="show__content">
-      <h1 className="show__name">How i met your mother</h1>
-      <p className="show__description">
-        A father recounrd to his children - through a series of flashbacks - the
-        journey and his four best friends too leading up to him meeting their
-        mother.
-      </p>
+      <h1 className="show__name">{show.name}</h1>
+      <div dangerouslySetInnerHTML={{ __html: show.summary }}></div>
     </div>
   );
 }

@@ -46,10 +46,7 @@
   box-shadow: var(--shadow-sm);
 }
 
-.season__name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.season__image {
   height: 90%;
 }
 

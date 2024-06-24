@@ -1,7 +1,7 @@
 import React from "react";
 import "./page.css";
 import ShowPreview from "./ShowPreview";
-import { Show } from "@/interfaces/Show";
+import { IShow } from "@/interfaces/IShow";
 
 async function SeriesView() {
   const shows = await getShows();
@@ -24,7 +24,7 @@ async function SeriesView() {
 
 export default SeriesView;
 
-async function getShows(): Promise<Show[]> {
+async function getShows(): Promise<IShow[]> {
   const response = await fetch("https://api.tvmaze.com/shows?page=1&limit=1");
   const data = await response.json();
   return data;

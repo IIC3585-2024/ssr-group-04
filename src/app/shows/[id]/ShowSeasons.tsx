@@ -1,20 +1,24 @@
+import { IShow } from "@/interfaces/IShow";
 import React from "react";
+import Image from "next/image";
 
-function ShowSeasons() {
+function ShowSeasons({ show }: { show: IShow }) {
   return (
     <div className="show__seasons">
-      <div className="season">
-        <div className="season__name">Season 1</div>
-        <div className="season__n-episodes">22 Episodes</div>
-      </div>
-      <div className="season">
-        <div className="season__name">Season 2</div>
-        <div className="season__n-episodes">22 Episodes</div>
-      </div>
-      <div className="season">
-        <div className="season__name">Season 3</div>
-        <div className="season__n-episodes">22 Episodes</div>
-      </div>
+      {show.seasons.map((season) => (
+        <div className="season" key={season.id}>
+          <Image
+            className="season__image"
+            src={season.image?.original || "/placeholder.png"}
+            alt={season.name}
+            width={210}
+            height={295}
+          />
+          <div className="season__n-episodes">
+            {season.episodeOrder} Episodes
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

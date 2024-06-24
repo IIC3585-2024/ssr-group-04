@@ -1,10 +1,11 @@
+import { IShow } from "@/interfaces/IShow";
 import React from "react";
 
-function ShowData() {
+async function ShowData({ show }: { show: IShow }) {
   return (
     <div className="show__data">
-      <div className="n-seasons">9 seasons</div>
-      <div className="show__rating">8.3</div>
+      <div className="n-seasons">{show.seasons.length} seasons</div>
+      <div className="show__rating">Rating: {show.rating.average}/10</div>
     </div>
   );
 }
