@@ -13,6 +13,7 @@
 .show__categories {
   display: flex;
   gap: var(--spacing-md);
+  flex-wrap: wrap;
 }
 
 .show__content {

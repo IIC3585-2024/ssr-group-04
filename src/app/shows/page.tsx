@@ -26,8 +26,10 @@ function SeriesView() {
       <input
         type="text"
         name="Search"
+        placeholder="Search..."
+        className="search-bar"
         id="Search"
-        onChange={debounce(handleSearch, 500)}
+        onChange={debounce(handleSearch, 300)}
       />
       <div className="show-list">
         {shows.map((show) => (

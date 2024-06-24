@@ -4,6 +4,16 @@
   gap: 1rem;
 }
 
+.search-bar {
+  display: flex;
+  width: 100%;
+  height: var(--size-xxs);
+  justify-content: center;
+  margin: var(--spacing-md) 0;
+  border-radius: 10px;
+  padding: var(--spacing-md);
+}
+
 .show {
   background-color: black;
   border-radius: 10px;

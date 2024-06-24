@@ -1,6 +1,7 @@
 .badge {
-    background-color: var(--color-primary);
-    color: var(--color-secondary);
-    border-radius: var(--spacing-md);
-    padding: var(--spacing-xs) var(--spacing-md) var(--spacing-xs) var(--spacing-md);
+  font-size: small;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-radius: var(--spacing-md);
+  padding: var(--spacing-xs) var(--spacing-md);
 }
