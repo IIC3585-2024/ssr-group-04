@@ -1,0 +1,5 @@
+.badge {
+    background-color: gray;
+    border-radius: var(--spacing-md);
+    padding: var(--spacing-xs) var(--spacing-md) var(--spacing-xs) var(--spacing-md);
+}

@@ -2,21 +2,6 @@
     height: var(--size-md);
 }
 
-.action-bar {
-    height: var(--size-sm);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: var(--spacing-md);
-}
-
-.action {
-    background-color: gray;
-    height: var(--size-xs);
-    width: var(--size-xs);
-    border-radius: var(--border-radius-circle);
-}
-
 .show__seasons {
     display: flex;
     flex-direction: row;
@@ -28,12 +13,6 @@
 .show__categories {
     display: flex;
     gap: var(--spacing-md);
-}
-
-.badge {
-    background-color: gray;
-    border-radius: var(--spacing-md);
-    padding: var(--spacing-xs) var(--spacing-md) var(--spacing-xs) var(--spacing-md);
 }
 
 .show__data {

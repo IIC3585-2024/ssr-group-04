@@ -1,6 +1,6 @@
 import React from "react";
 import "./page.css";
-import Show from "@/components/Show";
+import Show from "./Show";
 
 function SeriesView() {
   return (
