@@ -1,7 +1,52 @@
+:root {
+  /* Colors */
+  --color-primary: #171911;
+  --color-secondary: #333428;
+  --color-background: #191510;
+  --color-text: #ffffff;
+
+  /* Spacing */
+  --spacing-xxs: 0.125rem;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Sizing */
+  --size-xxs: 3.063vh;
+  --size-xs: 6.125vh;
+  --size-sm: 12.25vh;
+  --size-md: 25vh;
+  --size-lg: 50vh;
+  --size-xl: 100vh;
+
+  /* Border radius */
+  --border-radius-circle: 50%;
+
+  /* Layout */
+  --layout-nav-height: 10vh;
+  --layout-main-height: 90vh;
+
+  /* Grid */
+  /** Two columns grid */
+  --grid-md: repeat(2, 1fr);
+  /** Four columns grid */
+  --grid-lg: repeat(4, 1fr);
+
+
+  --shadow-sm: 5px 5px 9px -5px var(--color-secondary);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  /* Hide scroll bars */
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 a {
@@ -10,9 +55,14 @@ a {
 }
 
 body {
-  background-color: black;
+  background-color: var(--color-background);
   color: white;
-  padding: 1rem;
+}
+
+main {
+  height: var(--layout-main-height);
+  overflow: scroll;
+  padding: var(--spacing-md);
 }
 
 img {

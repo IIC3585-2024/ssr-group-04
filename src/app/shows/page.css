@@ -1,6 +1,6 @@
 .show-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: var(--grid-md);
   gap: 1rem;
 }
 
@@ -16,4 +16,10 @@
   display: flex;
   align-items: center;
   margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .show-list {
+    grid-template-columns: var(--grid-lg);
+  }
 }
