@@ -1,7 +1,7 @@
 :root {
   /* Colors */
-  --color-primary: #171911;
-  --color-secondary: #333428;
+  --color-primary: rgb(245, 197, 24);
+  --color-secondary: #171911;
   --color-background: #191510;
   --color-text: #ffffff;
 
@@ -42,6 +42,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Roboto','Helvetica','Arial',sans-serif;
 
   /* Hide scroll bars */
   ::-webkit-scrollbar {

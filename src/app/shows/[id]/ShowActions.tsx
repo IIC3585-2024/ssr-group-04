@@ -1,13 +1,13 @@
 import React from 'react'
-import './ShowActions.css'
+import Action from '@/components/Action'
 
 function ShowActions() {
   return (
-    <div className="action-bar">
-        <div className="action"></div>
-        <div className="action"></div>
-        <div className="action"></div>
-        <div className="action"></div>
+    <div className="show__actions">
+        <Action/>
+        <Action/>
+        <Action/>
+        <Action/>
     </div>
   )
 }

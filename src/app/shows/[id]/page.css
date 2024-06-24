@@ -1,44 +1,59 @@
 .show__hero {
-    height: var(--size-md);
-}
-
-.show__seasons {
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    gap: var(--spacing-md);
-    padding: var(--spacing-xs);
-}
-
-.show__categories {
-    display: flex;
-    gap: var(--spacing-md);
+  height: var(--size-md);
 }
 
 .show__data {
-    display: flex;
-    gap: var(--spacing-md);
-    margin: var(--spacing-sm) 0 var(--spacing-sm) 0;
-    align-items: center;
-    color: rgb(213, 211, 211);
+  display: flex;
+  gap: var(--spacing-md);
+  margin: var(--spacing-sm) 0 var(--spacing-sm) 0;
+  align-items: center;
+  color: rgb(213, 211, 211);
+}
+
+.show__categories {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.show__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0 var(--spacing-md) 0;
+}
+
+.show__seasons {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  gap: var(--spacing-md);
+  padding: var(--spacing-xs);
+}
+
+.show__actions {
+  height: var(--size-sm);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: var(--spacing-md);
 }
 
 .season {
-    min-width: var(--size-md);
-    height: 30vh;
-    align-items: center;
-    background-color: var(--color-primary);
-    box-shadow: var(--shadow-sm);
+  min-width: var(--size-md);
+  height: 30vh;
+  align-items: center;
+  background-color: var(--color-secondary);
+  box-shadow: var(--shadow-sm);
 }
 
 .season__name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
 }
 
 .season__n-episodes {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }

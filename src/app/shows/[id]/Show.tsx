@@ -4,6 +4,7 @@ import ShowActions from "./ShowActions";
 import ShowSeasons from "./ShowSeasons";
 import ShowCategories from "./ShowCategories";
 import ShowHero from "./ShowHero";
+import ShowContent from "./ShowContent";
 
 function Show() {
   return (
@@ -11,12 +12,7 @@ function Show() {
       <ShowHero />
       <ShowData />
       <ShowCategories />
-      <h1 className="show__name">How i met your mother</h1>
-      <p className="show__description">
-        A father recounrd to his children - through a series of flashbacks - the
-        journey and his four best friends too leading up to him meeting their
-        mother.
-      </p>
+      <ShowContent />
       <ShowActions />
       <ShowSeasons />
     </div>
