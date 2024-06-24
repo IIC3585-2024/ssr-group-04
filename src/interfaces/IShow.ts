@@ -4,7 +4,7 @@ export interface IShow {
   name: string;
   type: string;
   language: string;
-  genres: string[];
+  genres?: string[];
   status: string;
   runtime: number;
   averageRuntime: number;
@@ -15,7 +15,7 @@ export interface IShow {
     time: string;
     days: string[];
   };
-  rating: {
+  rating?: {
     average: number;
   };
   weight: number;

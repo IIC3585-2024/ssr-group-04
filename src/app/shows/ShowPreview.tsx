@@ -13,7 +13,7 @@ function ShowPreview({ show }: { show: IShow }) {
         width={210}
         height={295}
       />
-      <div className="show__rating">{show.rating.average || "N/A"}</div>
+      <div className="show__rating">{show.rating?.average || "N/A"}</div>
     </div>
   );
 }
