@@ -39,6 +39,29 @@
   gap: var(--spacing-md);
 }
 
+.show__comments {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.comment {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.comment__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.comment__actions {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
 .season {
   min-width: var(--size-md);
   height: 30vh;

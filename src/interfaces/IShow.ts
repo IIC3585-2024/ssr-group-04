@@ -41,6 +41,7 @@ export interface IShow {
     original: string;
   };
   seasons: ISeason[];
+  comments: IComment[];
   summary: string;
   updated: number;
   _links: {
@@ -83,6 +84,13 @@ export interface ISeason {
       href: string;
     };
   };
+}
+
+export interface IComment {
+  id: number;
+  content: string;
+  showId: number;
+  author: string;
 }
 
 const show = {

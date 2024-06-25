@@ -1,6 +1,9 @@
 .action {
-    background-color: var(--color-primary);
-    height: var(--size-xs);
-    width: var(--size-xs);
-    border-radius: var(--border-radius-circle);
+  background-color: var(--color-primary);
+  height: var(--size-xs);
+  width: var(--size-xs);
+  border-radius: var(--border-radius-circle);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,7 +1,7 @@
 import { IShow } from "@/interfaces/IShow";
 import React from "react";
 
-async function ShowData({ show }: { show: IShow }) {
+function ShowData({ show }: { show: IShow }) {
   return (
     <div className="show__data">
       <div className="n-seasons">

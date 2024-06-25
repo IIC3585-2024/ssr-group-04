@@ -30,5 +30,25 @@
       "userId": "google-oauth2|100946780049028012580",
       "id": 6
     }
+  ],
+  "comments": [
+    {
+      "showId": 1,
+      "content": "Muy linda pelicula",
+      "author": "DOMINGO EDWARDS",
+      "id": 1
+    },
+    {
+      "showId": 1,
+      "content": "Very nice",
+      "author": "DOMINGO EDWARDS",
+      "id": 2
+    },
+    {
+      "showId": 1,
+      "content": "Yeah boy\n",
+      "author": "DOMINGO EDWARDS",
+      "id": 3
+    }
   ]
 }
