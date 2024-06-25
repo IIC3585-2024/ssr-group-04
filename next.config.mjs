@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "static.tvmaze.com",
       },
+      {
+        protocol: "https",
+        hostname: "*.googleusercontent.com",
+      },
     ],
   },
 };
