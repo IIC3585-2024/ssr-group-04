@@ -1,0 +1,32 @@
+.show-list {
+  display: grid;
+  grid-template-columns: var(--grid-md);
+  gap: 1rem;
+}
+
+.show {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.show__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--spacing-sm);
+}
+
+.show__rating {
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .show-list {
+    grid-template-columns: var(--grid-lg);
+  }
+}
